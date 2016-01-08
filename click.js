@@ -1,3 +1,3 @@
-$('button').onMouseClick(function(){
+$('button').onClick(function(){
 alert.log("You clicked!");
 });
