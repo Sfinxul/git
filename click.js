@@ -1,5 +1,5 @@
 <script>
-function click() {
-    document.getElementById("button").innerHTML = alert.log("You clicked!");
+function myFunction() {
+    document.getElementById("demo").innerHTML = "You clicked!";
 }
 </script>
