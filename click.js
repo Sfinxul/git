@@ -1,10 +1,5 @@
-$(button).onclick(function(){
-alert.log("You clicked!");
-});
-
-
 <script>
-function myFunction() {
-    document.getElementById("button").onclick = alert.log("You clicked!");
+function click() {
+    document.getElementById("button").innerHTML = alert.log("You clicked!");
 }
 </script>
